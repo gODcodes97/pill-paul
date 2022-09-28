@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barriecito&family=Didact+Gothic&family=Explora&family=Fredoka+One&family=Indie+Flower&family=Josefin+Sans:wght@100&family=Lacquer&family=Lato:wght@100&family=Mali:wght@200&family=Montserrat:wght@100&family=PT+Sans&family=Raleway+Dots&family=Rubik+Moonrocks&family=Sacramento&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav ul li a{
+    color: indigo;
+    position: relative;
+    padding: 5px 0;
+}
+
+.nav ul li a:hover{
+    color: indigo;
+}
+
+.nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: indigo;
+    transition: .3s;
+    bottom: 0;
+}
+
+.nav ul li a:hover:after{
+    width: 100%;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    border: solid 2px indigo;
+    border-radius: 50%;
+}
+
+.section_1 {
+    background-image: url("new4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 575px;
+    text-align: center;
+}
+
+.section_1 h2 {
+    color: indigo;
+    padding-top: 150px;
+    line-height: 5px;
+    font-size: 75px;
+}
+
+.section_1 h4 {
+    color: indigo;
+    font-size: medium;
+}
+
+.shop_btn {
+    border: 2px solid indigo;
+    padding: 16px 40px;
+    border-radius: 500px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    background-color: indigo;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.shop_btn:hover {
+    background: transparent;
+    border-color: indigo;
+    color: indigo;
+    transform: scale(1.1);
+}
+
+.h3a {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    font-size: 35px;
+    color: indigo;
+}
+
+.h3a a {
+    text-decoration: none;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.div_card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 30%;
+    box-shadow: #0000000d 0px 1px 3px, #0000000d 0px 10px 15px -5px, #0000000a 0px 7px 7px -5px;
+    overflow: hidden;
+    background-color: #f9eaff;
+}
+
+.card_header {
+    margin: -20px -20px 0 -20px;
+}
+
+.card_img {
+    width: 100%;
+    height: 250px;
+    transition: all .4s ease-in-out;
+    /* opacity: 0.5; */
+}
+
+.card_img:hover {
+    transform: scale(1.1);
+}
+
+.card_title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    text-align: center;
+    font-weight: 650;
+    color: indigo;
+}
+
+.adc {
+    border: 2px solid indigo;
+    padding: 16px 40px;
+    border-radius: 500px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    background-color: indigo;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.adc:hover {
+    background: transparent;
+    border-color: indigo;
+    color: indigo;
+    transform: scale(1.1);
+}
+
+.h3b {
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-size: 35px;
+    color: indigo;
+}
+
+.p_art {
+    text-align: center;
+    font-size: 17px;
+    color: indigo;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+.footer_grid nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly; 
+    background-color: plum;
+}
+
+.footer_item a {
+    text-decoration: none;
+    font-size: 17px;
+    color: indigo;
+    transition: all 200ms ease-out;
+}
+
+.footer_item a:hover {
+    font-size: 25px;
+}
+
+.footer_item ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+ .jbtn {
+    color: indigo;
+ }
